@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main -->
+    <string name="app_name">Better Together</string>
+    <string name="main_description0">Una-se</string>
+    <string name="main_description1">para um</string>
+    <string name="main_description2">Mundo</string>
+    <string name="main_description3">Melhor</string>
+    <string name="main_subdescription">Aqui nós transformamos as boas atitudes em recompensas para você e para todos!</string>
+    <string name="company_button">Empresa</string>
+    <string name="collaborator_button">Colaborador</string>
+
+    <!-- Descrição das imagens -->
+
+    <string name="main_bg_description">Fundo branco com bolas vermelhas e verdes</string>
+    <string name="logo_description">A logotipo possui um símbolo verde e vermelho com o formato
+        de uma flor, porém de forma minimalísta representa pessoas com os braços erguidos. A logo
+        possui as palavras "Better Together" com as mesmas cores do símbolo"
+    </string>
+
+    <!--Formulário empresa-->
+
+    <string name="business_account">Criar conta de empresa</string>
+    <string name="company_name">Nome da Empresa</string>
+    <string name="company_email">Email da Empresa</string>
+    <string name="company_phone">Telefone da Empresa</string>
+    <string name="company_cnpj">CNPJ da Empresa</string>
+    <string name="company_employees">Número de Funcionários</string>
+    <string name="company_site">Website da Empresa</string>
+    <string name="company_password">Senha</string>
+    <string name="password_strength">Força da senha:</string>
+    <string name="allow">Eu concordo com as </string>
+    <string name="policies">Políticas de Privacidade</string>
+    <string name="btn_create_account">Criar a Conta</string>
+
+    <!--Formulário de usuário-->
+    <string name="collaborator_account">Criar uma conta de colaborador</string>
+    <string name="sign_sugestion">Entre com</string>
+    <string name="sign_sugestion1">Ou crie sua conta usando o Email</string>
+    <string name="user_name">Nome</string>
+    <string name="user_email">E-mail de contato</string>
+    <string name="user_phone">Número de telefone</string>
+    <string name="company_code">Código da empresa</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="notification">Notificação</string>
+    <string name="profile">Perfil</string>
+    <string name="Awards">Prêmios</string>
+    <string name="medal">Medalha</string>
+    <string name="points">50 pontos</string>
+    <string name="teste">teste</string>
+    <string name="food_image">Doação de alimentos para todas as regiões do Brasil</string>
+    <string name="food">Doação de alimentos para todas as regiões do Brasil</string>
+    <string name="food_point">23 pontos</string>
+    <string name="exercise_image">Realize exercícios físicos regularmente</string>
+    <string name="exercise">Realize exercícios físicos regularmente</string>
+    <string name="exercise_point">5 pontos</string>
+    <string name="blood_image">Doação de sangue em São Paulo</string>
+    <string name="blood">Doação de sangue em São Paulo</string>
+    <string name="blood_point">20 pontos</string>
+    <string name="locomotion_image">Aderir uso de bicicleta para se deslocar até a
+        empresa</string>
+    <string name="locomotion">Adira ao uso de bicicleta para se deslocar até a empresa</string>
+    <string name="locomotion_point">3 pontos</string>
+
+
+    <!-- menus name -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_awards">Prêmios</string>
+    <string name="menu_profile">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,83 @@
+<resources>
+
+    <!-- Main-->
+    <string name="app_name">Better Together</string>
+    <string name="main_description0">Unite </string>
+    <string name="main_description1">for a</string>
+    <string name="main_description2">Better</string>
+    <string name="main_description3">World</string>
+    <string name="main_subdescription">Here we turn good attitudes into rewards for you and for everyone!</string>
+    <string name="company_button">Company</string>
+    <string name="collaborator_button">Collaborator</string>
+
+
+    <!-- Images description -->
+    <string name="main_bg_description">White background with red and greens balls</string>
+    <string name="logo_description">The logo features a green and red symbol in the shape of a
+        flower, but in a minimalist way represents people with raised arms. The logo has the
+        words "Better Together" in the same colors as the symbol.</string>
+
+    <!--Company form-->
+    <string name="business_account">Create a Business Account</string>
+    <string name="company_name">Company Name</string>
+    <string name="company_email">Contact Email</string>
+    <string name="company_phone">Phone Number</string>
+    <string name="company_cnpj">Company CNPJ</string>
+    <string name="company_employees">Number of Employees</string>
+    <string name="company_site">Company Website</string>
+    <string name="company_password">Password</string>
+    <string name="password_strength">Password Strength:</string>
+    <string name="allow">I agree with the</string>
+    <string name="policies">Privacy Policies</string>
+    <string name="btn_create_account">Create account</string>
+
+    <!--User form-->
+    <string name="collaborator_account">Create a Collaborator Account</string>
+    <string name="sign_sugestion">Sign in with</string>
+    <string name="sign_sugestion1">Or sign in using Email</string>
+    <string name="user_name">Name</string>
+    <string name="user_email">Contact Email</string>
+    <string name="user_phone">Phone Number</string>
+    <string name="company_code">Company Code</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="Awards">Awards</string>
+    <string name="medal">Medal</string>
+    <string name="teste">teste</string>
+    <string name="points">50 points</string>
+    <string name="food_image">Food donation for all regions of Brazil</string>
+    <string name="food">Food donation for all regions of Brazil</string>
+    <string name="food_point">23 points</string>
+    <string name="exercise_image">Do physical exercises regularly</string>
+    <string name="exercise">Do physical exercises regularly</string>
+    <string name="exercise_point">5 points</string>
+    <string name="blood_image">Blood Donation in Sao Paulo</string>
+    <string name="blood">Blood Donation in Sao Paulo</string>
+    <string name="blood_point">20 points</string>
+    <string name="locomotion_image">Adhere to use a bicycle to travel to the company</string>
+    <string name="locomotion">Adhere to use a bicycle to travel to the company</string>
+    <string name="locomotion_point">3 points</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_home3">activity_home3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- menus name -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_awards">Awards</string>
+    <string name="menu_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

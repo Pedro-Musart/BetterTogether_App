@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_pink"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/business_account"
+        android:textColor="#2F2F2F"
+        app:layout_constraintBottom_toBottomOf="@+id/backToMain"
+        app:layout_constraintStart_toEndOf="@+id/backToMain"
+        app:layout_constraintTop_toTopOf="@+id/backToMain" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_grey2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/company"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_name"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="7dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_email"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_phone"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyCNPJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/cnpj"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_cnpj"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyEmployees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/people"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_employees"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanySite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/web"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_site"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextCompanyPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/background_edittext_white"
+            android:drawableStart="@drawable/password"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="@string/company_password"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#909090" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/password_strength"
+            android:textColor="#8898AA" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxPolicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/allow"
+                android:textColor="#2F2F2F" />
+
+
+            <TextView
+                android:id="@+id/textViewPrivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:layout_marginStart="4sp"
+                android:text="@string/policies"
+                android:textColor="#D4354D" />
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSignup"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_button_pink"
+            android:fontFamily="@font/open_sans_bold"
+            android:padding="5dp"
+            android:text="@string/btn_create_account" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backToMain"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="back"
+        android:drawableStart="@drawable/back_button"
+        android:paddingStart="16dp"
+        app:layout_constraintStart_toStartOf="@+id/background_pink"
+        app:layout_constraintTop_toTopOf="@+id/background_pink" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
