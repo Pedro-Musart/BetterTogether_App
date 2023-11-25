@@ -26,17 +26,17 @@ class AdapterTask(private val context: Context, private val tasks: MutableList<T
 
     override fun onBindViewHolder(holder: TaskViewHolder, position: Int) {
         Glide.with(holder.itemView.context)
-            .load(tasks[position].foto)
+            .load(tasks[position].task_image_url)
             .placeholder(R.drawable.loading_gif) // Imagem de placeholder enquanto a imagem está sendo carregada
             .error(R.drawable.loading_gif) // Imagem a ser exibida em caso de erro no carregamento
             .diskCacheStrategy(DiskCacheStrategy.ALL) // Armazenar em cache a imagem original e as redimensionadas
             .into(holder.foto)
 
 
-        holder.descricao.text = tasks[position].descricao
-        holder.pontos.text = tasks[position].ponto
+        holder.descricao.text = tasks[position].task_description
+        holder.pontos.text = tasks[position].task_score
 
-        val taskId = tasks[position].id
+
     }
     inner class TaskViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
