@@ -3,10 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".CompanyLoginActivity">
 
     <ImageView
-        android:id="@+id/background_pink2"
+        android:id="@+id/background_pink"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -46,20 +47,6 @@
 
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanyName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/background_edittext_white"
-            android:drawableStart="@drawable/company"
-            android:drawablePadding="8dp"
-            android:fontFamily="@font/open_sans"
-            android:hint="@string/company_name"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textColorHint="#909090" />
-
-        <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextCompanyEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,41 +74,6 @@
             android:textColor="#000000"
             android:textColorHint="#909090" />
 
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanyEmployees"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/background_edittext_white"
-            android:drawableStart="@drawable/people"
-            android:drawablePadding="8dp"
-            android:fontFamily="@font/open_sans"
-            android:hint="@string/company_employees"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textColorHint="#909090" />
-
-        <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanySite"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/background_edittext_white"
-            android:drawableStart="@drawable/web"
-            android:drawablePadding="8dp"
-            android:fontFamily="@font/open_sans"
-            android:hint="@string/company_site"
-            android:padding="10dp"
-            android:textColor="#000000"
-            android:textColorHint="#909090" />
-
-
-        <ImageView
-            android:id="@+id/background_pink1"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/background_pink" />
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/editTextCompanyPass"
@@ -175,18 +127,17 @@
         </LinearLayout>
 
 
-
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/buttonSignupCompany"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:layout_marginBottom="12dp"
             android:background="@drawable/background_button_pink"
             android:fontFamily="@font/open_sans_bold"
             android:padding="5dp"
-            android:text="@string/btn_create_account"
-            android:layout_marginBottom="12dp"
-            android:textColor="@color/white"/>
+            android:text="@string/btn_login"
+            android:textColor="@color/white" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -197,13 +148,13 @@
             android:layout_margin="5dp">
 
             <Button
-                android:id="@+id/alreadyHaveCompany"
+                android:id="@+id/noHaveCompany"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4sp"
                 android:autoLink="web"
                 android:fontFamily="@font/open_sans_bold"
-                android:text="@string/already_account"
+                android:text="@string/no_account"
                 android:textColor="#D4354D"
                 android:background="#00FFFFFF"
                 android:textSize="12dp"
@@ -223,8 +174,8 @@
         android:contentDescription="back"
         android:drawableStart="@drawable/back_button"
         android:paddingStart="16dp"
-        app:layout_constraintStart_toStartOf="@+id/background_pink2"
-        app:layout_constraintTop_toTopOf="@+id/background_pink2" />
+        app:layout_constraintStart_toStartOf="@+id/background_pink"
+        app:layout_constraintTop_toTopOf="@+id/background_pink" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

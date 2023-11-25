@@ -39,27 +39,36 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"
             android:layout_width="match_parent"
-            android:layout_height="37dp"
+            android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="36dp"
-                android:layout_height="34dp"
-                android:layout_marginStart="48dp"
-                android:contentDescription="@string/profile"
+            <com.google.android.material.card.MaterialCardView
+                style="@style/RoundedImageViewStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/profile_img" />
+                android:layout_marginStart="40dp">
+
+                <ImageView
+                    android:id="@+id/minhaImagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/profile"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile_img" />
+            </com.google.android.material.card.MaterialCardView>
+
+
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="30dp"
-                android:layout_height="34dp"
-                android:layout_marginEnd="48dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="40dp"
                 android:contentDescription="@string/medal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -85,13 +94,14 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_bold"
                 android:text="@string/points"
                 android:textColor="#2F2F2F"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
 
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,72 +116,18 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
         app:layout_constraintHorizontal_bias="0.0"
         >
-
-        <LinearLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lista_tasks"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:padding="20dp">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-
-            <com.google.android.material.card.MaterialCardView
-                style="@style/CustomCardViewStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="140dp"
-                    android:background="@drawable/card_background_white"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/commuter_gc0b4d72d1_1280_1"
-                        android:scaleType="centerCrop"/>
-
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="5"
-                        android:orientation="vertical"
-                        android:padding="12dp">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="1"
-                            android:fontFamily="@font/open_sans"
-                            android:text="Aderir uso de bicicleta para locomoção até a empresa"
-                            android:textColor="#2F2F2F"
-                            android:textSize="14dp" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_weight="3"
-                            android:fontFamily="@font/open_sans_bold"
-                            android:gravity="center_vertical"
-                            android:text="23 pontos"
-                            android:textColor="#D4354D"
-                            android:textSize="14dp" />
-
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-            </com.google.android.material.card.MaterialCardView>
-
-
-
-
-        </LinearLayout>
+        </androidx.recyclerview.widget.RecyclerView>
 
     </ScrollView>
+
+
 
 
 

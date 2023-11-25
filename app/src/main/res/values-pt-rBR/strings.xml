@@ -23,7 +23,7 @@
     <string name="business_account">Criar conta de empresa</string>
     <string name="company_name">Nome da Empresa</string>
     <string name="company_email">Email da Empresa</string>
-    <string name="company_phone">Telefone da Empresa</string>
+    <string name="company_id">Identificador da Empresa</string>
     <string name="company_cnpj">CNPJ da Empresa</string>
     <string name="company_employees">Número de Funcionários</string>
     <string name="company_site">Website da Empresa</string>
@@ -31,7 +31,10 @@
     <string name="password_strength">Força da senha:</string>
     <string name="allow">Eu concordo com as </string>
     <string name="policies">Políticas de Privacidade</string>
+    <string name="already_account">Já tem uma conta? Entre agora</string>
+    <string name="no_account">Não tem uma conta? Crie Agora!</string>
     <string name="btn_create_account">Criar a Conta</string>
+    <string name="btn_login">Login</string>
 
     <!--Formulário de usuário-->
     <string name="collaborator_account">Criar uma conta de colaborador</string>
@@ -72,6 +75,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_awards">Prêmios</string>
     <string name="menu_profile">Perfil</string>
+    <string name="menu_chat">Chat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

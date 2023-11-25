@@ -20,8 +20,8 @@
     <!--Company form-->
     <string name="business_account">Create a Business Account</string>
     <string name="company_name">Company Name</string>
-    <string name="company_email">Contact Email</string>
-    <string name="company_phone">Phone Number</string>
+    <string name="company_email">Company Email</string>
+    <string name="company_id">Company Identifier</string>
     <string name="company_cnpj">Company CNPJ</string>
     <string name="company_employees">Number of Employees</string>
     <string name="company_site">Company Website</string>
@@ -29,7 +29,10 @@
     <string name="password_strength">Password Strength:</string>
     <string name="allow">I agree with the</string>
     <string name="policies">Privacy Policies</string>
+    <string name="already_account">Already Have a Account? Login now</string>
+    <string name="no_account">Don\'t have an account? Create Now</string>
     <string name="btn_create_account">Create account</string>
+    <string name="btn_login">Login</string>
 
     <!--User form-->
     <string name="collaborator_account">Create a Collaborator Account</string>
@@ -76,6 +79,7 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_awards">Awards</string>
     <string name="menu_profile">Profile</string>
+    <string name="menu_chat">Chat</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_chat">ChatActivity</string>

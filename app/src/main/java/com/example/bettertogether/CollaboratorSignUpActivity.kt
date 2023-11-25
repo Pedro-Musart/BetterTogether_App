@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.bettertogether.CompanyLoginActivity
 import com.example.bettertogether.LoginActivity
 import com.example.bettertogether.R
 
@@ -17,9 +18,8 @@ class CollaboratorSignUpActivity: AppCompatActivity() {
 
 
         backToMainBtn.setOnClickListener{
-            val i = Intent(this,  LoginActivity::class.java)
-            startActivity(i)
-            finish()
+            onBackPressed()
+
         }
     }
 }
