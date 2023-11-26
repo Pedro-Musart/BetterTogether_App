@@ -15,20 +15,22 @@
         android:theme="@style/Theme.BetterTogether"
         tools:targetApi="31">
         <activity
-            android:name=".LoginActivity"
-            android:exported="true"
-            android:theme="@style/Theme.BetterTogether.NoActionBar"/>
-
-        <activity android:name="br.com.bettertogether.CollaboratorSignUpActivity"
-            android:exported="true"
-            android:theme="@style/Theme.BetterTogether.NoActionBar"/>
-
-        <activity android:name="br.com.bettertogether.CompanySignUpActivity"
-            android:exported="true"
-            android:theme="@style/Theme.BetterTogether.NoActionBar"/>
-
+            android:name=".CompanyActivity"
+            android:exported="false" />
         <activity
-                android:name=".CompanyLoginActivity"
+            android:name=".CompanyLoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BetterTogether.NoActionBar" />
+        <activity
+            android:name="br.com.bettertogether.CollaboratorSignUpActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BetterTogether.NoActionBar" />
+        <activity
+            android:name="br.com.bettertogether.CompanySignUpActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BetterTogether.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.BetterTogether.NoActionBar">

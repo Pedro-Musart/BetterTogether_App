@@ -18,7 +18,9 @@ class CollaboratorSignUpActivity: AppCompatActivity() {
 
 
         backToMainBtn.setOnClickListener{
-            onBackPressed()
+            val i = Intent(this,  LoginActivity::class.java)
+            startActivity(i)
+            finish()
 
         }
     }

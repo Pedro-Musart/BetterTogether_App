@@ -26,9 +26,9 @@
         android:fontFamily="@font/open_sans_bold"
         android:text="@string/business_account"
         android:textColor="#2F2F2F"
-        app:layout_constraintBottom_toBottomOf="@+id/backToMain"
-        app:layout_constraintStart_toEndOf="@+id/backToMain"
-        app:layout_constraintTop_toTopOf="@+id/backToMain" />
+        app:layout_constraintBottom_toBottomOf="@+id/back"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toTopOf="@+id/back" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -47,21 +47,21 @@
 
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanyEmail"
+            android:id="@+id/editTextCompanyNameLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:background="@drawable/background_edittext_white"
-            android:drawableStart="@drawable/email"
+            android:drawableStart="@drawable/company"
             android:drawablePadding="7dp"
             android:fontFamily="@font/open_sans"
-            android:hint="@string/company_email"
+            android:hint="@string/company_name"
             android:padding="10dp"
             android:textColor="#000000"
             android:textColorHint="#909090" />
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanyCNPJ"
+            android:id="@+id/editTextCompanyCNPJLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -76,7 +76,7 @@
 
 
         <androidx.appcompat.widget.AppCompatEditText
-            android:id="@+id/editTextCompanyPass"
+            android:id="@+id/editTextCompanyPassLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
@@ -90,45 +90,8 @@
             android:textColorHint="#909090" />
 
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:fontFamily="@font/open_sans"
-            android:text="@string/password_strength"
-            android:textColor="#8898AA" />
-
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/checkBoxPolicy"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/allow"
-                android:textColor="#2F2F2F" />
-
-
-            <TextView
-                android:id="@+id/textViewPrivacy"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:autoLink="web"
-                android:layout_marginStart="4sp"
-                android:text="@string/policies"
-                android:textColor="#D4354D" />
-
-        </LinearLayout>
-
-
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonSignupCompany"
+            android:id="@+id/buttonLoginCompany"
             android:layout_width="140dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -165,7 +128,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/backToMain"
+        android:id="@+id/back"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginStart="20dp"

@@ -8,9 +8,10 @@ import retrofit2.http.POST
 
 interface ApiService {
 
-    // Exemplo de chamada POST
     @POST("signUpCompany")
     fun signUpCompany(@Body requestBody: RequestBody): Call<ResponseBody>
 
-    // Adicione outros métodos conforme necessário para as chamadas que você deseja fazer
+    @POST("loginCompany")
+    fun loginCompany(@Body requestBody: RequestBody): Call<ResponseBody>
+
 }
